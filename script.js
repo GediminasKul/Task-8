@@ -20,3 +20,15 @@ function Calculator() {
     return a / b;
   };
 }
+
+const calculator = new Calculator();
+const sum = calculator.sum(2, 2);
+const sum2 = calculator.sum(4, 77);
+const subtraction = calculator.subtraction(16, 32);
+const mult = calculator.multiplication(11, 22);
+const div = calculator.division(13, 2);
+console.log(sum);
+console.log(sum2);
+console.log(subtraction);
+console.log(mult);
+console.log(div);
